@@ -21,7 +21,7 @@
 
 The circuit is pretty simple, here is the simplified diagram demonstrating the connections among main components:
 
-![](https://raw.githubusercontent.com/marshfolx/pics/master/%E6%89%B9%E6%B3%A8%202020-05-15%20013050.jpg)
+![](https://raw.githubusercontent.com/marshfolx/pics/master/ABT%20simplified%20disgram.jpg)
 
 ## Buttons
 
