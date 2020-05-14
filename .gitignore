@@ -29,7 +29,5 @@ _ReSharper*/
 $tf*/
 
 .vs/
-*.atsln
-.tfignore
 *.componentinfo.xml
-*.cproj
+
