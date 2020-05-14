@@ -37,7 +37,7 @@ namespace aaz{
 		*
 		* pwm duty ratio and ctc frequency setting depending on runtime data
 		* cannot use these utility functions,
-		* as the calculate functions are all constexpr which requires constant arguments.
+		* as the calculate functions use float point calculation.
 		*/
 		
 		/* 	时钟分频器与比较器值同时影响输出频率，而时钟分频器的设置具有全局影响力，
