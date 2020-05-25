@@ -25,9 +25,9 @@ The circuit is pretty simple, here is the simplified diagram demonstrating the c
 
 ## Buttons
 
-Buttons are used to adjust time manully. 
+Buttons are used to adjust time manually. 
 
-It will enter in time edit mode after the MCU reset, use button A and B to move editing position left and right and select which bit to edit,  button T is used to increment the number at editting position.
+It will enter in time edit mode after the MCU reset, use button A and B to move editing position left and right and select which bit to edit,  button T is used to increment the number at editing position.
 
 Tiny13a has not enough IO pins to connect three buttons individually. Here is a trick which needs one wire only: the voltage divider circuit. The circuit output different voltage when a button is pressed, thus the button pressed can be figured out when the V_out  is read by ADC. The ADC input pin is labeled KEY_IN.
 
@@ -51,4 +51,4 @@ If you use ATtiny25 or higher, an alarm feature should be easily implemented.
 
 
 
-And what is that **aaz** stuff ?  That is a thin wrap library which hides mosly all special register operaions behind inline functions with zero overhead, to cure the pain of my human memory and enhance the readiability, I hope.
+And what is that **aaz** stuff ?  That is a thin wrap library which hides mostly all special register operations behind inline functions with zero overhead, to cure the pain of my human memory and enhance the readability, I hope.
